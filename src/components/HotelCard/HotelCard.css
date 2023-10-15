@@ -1,0 +1,58 @@
+
+.card{
+    border-radius: 4px;
+    width: 18rem;
+    background-color: var(background-color);
+    
+}
+
+.img{
+height: 15rem;
+width: 100%;
+border-radius: 4px;
+object-fit: cover;
+}
+.location{
+    font-weight: bold;
+    padding-top: .7rem;
+}
+
+.rating{
+    margin-left:auto;
+    padding-right: .5rem;
+}
+.hotelName{
+    font-size: .875rem;
+    padding-bottom: 8px;
+    color: var(--text-color-primary);
+
+}
+
+.price-details{
+    font-size: 0.875em;
+    padding:0 0 8px 4px;
+    color:var(--text-color-primary)
+
+}
+
+.price-details .price{
+    font-weight: bold;
+    font-size: 1rem;
+   margin-right: 4px;
+}
+
+button.btn-wishlist{
+    padding: 1.25rem;
+    top:4px;
+    right: 8px;
+}
+
+.favourite{
+    color:white;
+}
+
+.aleart-text{
+   text-align:center;
+   margin: 2rem 0;
+    
+}

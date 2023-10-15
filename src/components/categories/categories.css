@@ -1,0 +1,40 @@
+.large-gap{
+    gap:1.15rem;
+}
+
+.singleCategory{
+    padding: 0 10px;
+}
+.categories{
+    padding: 5rem 4rem 2rem 3rem;
+    width: 100vw;
+    z-index:1;   
+    font-size: 1rem;
+    position: fixed;
+    background-color: var(--background-color);
+}
+
+.left-btn{
+   left: .5rem;
+}
+
+.right-btn{
+   right:9.75rem;
+
+}
+
+.button.btn-category{
+    padding: 0;
+    border: 1px solid var(--accent-color);
+    border-radius:30%;
+    background-color:grey;
+    height: 40px;
+    width: 30px;
+  
+    
+}
+
+  
+.border-bottom{
+    border-bottom: 1px solid var(--text-color-primary);
+}

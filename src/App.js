@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Home } from "./pages";
+import { CategoryProvider } from "./components";
 
 function App() {
   return (
     <div className="App">
-    <h1>Hello World</h1>
+      <CategoryProvider>
+        <Home />
+      </CategoryProvider>
     </div>
   );
 }
